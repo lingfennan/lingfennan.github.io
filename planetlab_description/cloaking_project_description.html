@@ -1,0 +1,64 @@
+<html>
+  <head> <title> Simhash-based Dynamic Cloaking Detection </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+
+<body bgcolor=white lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
+
+<h3> Project Title: <em>Simhash-based Dynamic Cloaking Detection</em></h3>
+
+<h3> Project Description:</h3>
+Advertisement spam has been rising concern for ad serving companies and users. Abusive advertisers
+pay ad serving companies for normal ads, but serve non­compliant content to users, even malicious content.
+In order to avoid inspection, ad spammers use user agent, referrer, IP etc based cloaking techniques to
+deliver regular content to ad serving company for review, and abusive content to its target users. Among the
+cloaking techniques, IP cloaking is very hard to detect. Hence, cloaking detection is a necessary step to
+enforce ad policies. There are two major challenges in cloaking detection (A) revealing the uncloaked content
+(B) differentiating cloaking from naturally dynamic changes of the same page. Existing approaches pretend to be
+the user, e.g. use proxies, set referer, to reveal the uncloaked content, but spammers could detect
+and block them. An intuitive way is to collect data from user side directly. However, it is hard to
+collect sufficient data for comparison while protecting user privacy.
+<br><br>
+This work employs simhash to address the two challenges. The proposal is to collect page contents 
+simhash on the user side through browser plugin, and compare them to simhash of
+the same link from ad serving company to find cloaking. When the differences of
+the simhashes are significantly large, we consider
+the page to be cloaking. We generate two simhash for page content and structure respectively.
+Intuition behind this is, simhash difference between different sites are larger than different
+visits of the same site. We build a two­phase system to detect cloaking: cluster learning
+phase, and cloaking detection phase. In the cluster learning phase, an ad company visit
+ad landing urls and generate simhash from its content with its owned IP, and learn pattern
+and distribution of the simhashes. In the cloaking detection phase, the ad company collects
+simhash from its users. Compare them with learned patterns, return cloaking score or mismatch.
+Results on synthetic data set show that we can achieve more than 99% True positive rate with
+5% false positive rate for page content simhash and 100% true positive rate with 2% false
+positive rate for structure simhash. If we define cloaking as mismatch in both page
+content simhash and structure simhash (intersection of mismatches in both case), we can
+achieve more than 99% true positive rate with 1% false positive rate. Results on
+real world data is not available now. In order to collect advertisements from
+various IPs to detect cloaking, the author plan to use <b>PlanetLab</b> to reach more
+location targeted ads.
+<br>
+<h3> Cloaking Example:</h3>
+
+<table stype="width:100%">
+<tbody>
+<tr>
+<td style="width:33%;text-align:center;vertical-align:top">
+	<b>Google Search Returns</b>
+    <img src="tutorsfavor_search.jpg" alt="HTML5 Icon"
+    style="width:100%;height:300px">
+</td>
+<td style="width:33%;text-align:center;vertical-align:top">
+	<b>What User Sees</b>
+    <img src="tutorsfavor_bad.jpg" alt="HTML5 Icon"
+    style="width:100%;height:300px">
+</td>
+<td style="width:33%;text-align:center;vertical-align:top">
+	<b>What Google Sees</b>
+    <img src="tutorsfavor_good.jpg" alt="HTML5 Icon"
+    style="width:100%;height:300px">
+</td>
+</body>
+
+</html>
