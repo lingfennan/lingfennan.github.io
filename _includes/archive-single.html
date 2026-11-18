@@ -54,11 +54,8 @@
     <div class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}<p><strong><a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a></strong></p></div>
     {% endif %}
     
-    {% include /components/citations.html
-        citation=post.citation
-        slidesurl=post.slidesurl
-        bibtexurl=post.bibtexurl
-    %}
+    {% comment %} Citation block omitted from the list view; title, authors (excerpt),
+       and venue/year are already shown above. {% endcomment %}
 
   </article>
 </div>

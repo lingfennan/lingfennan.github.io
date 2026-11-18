@@ -29,4 +29,4 @@ Published Patent Applications
 - **Ruian Duan**, Shu Wang, Daiping Liu, Fan Fei, Qi Zhang. Inline Detect and Block Relayed DNS Tunneling Traffic. U.S. Patent Application No. 18/894,907 (Pub. US 2026-0089178 A1). [[PDF]](/files/patents/US20260089178A1-relayed-dns-tunneling.pdf)
 - **Ruian Duan**, Daiping Liu, Janos Szurdi. Scalable Domain-Level Sinkholing and Interaction of Network Traffic. U.S. Patent Application No. 18/620,606 (Pub. US 2025-0310362 A1). [[PDF]](/files/patents/US20250310362A1-domain-sinkholing.pdf)
 - **Ruian Duan**, Daiping Liu. Identify and Block Domains Used for NXNS-Based DDoS Attacks. U.S. Patent Application No. 17/826,766 (Pub. US 2023-0370492 A1). [[PDF]](/files/patents/US20230370492A1-nxns-ddos.pdf)
-- Daiping Liu, **Ruian Duan**, Jun Wang. In-Path Per-Query Sanitization to Defeat DNS Tunneling. U.S. Patent Application No. 19/057,221 (Pub. US 2026-0058991 A1).
+- Daiping Liu, **Ruian Duan**, Jun Wang. In-Path Per-Query Sanitization to Defeat DNS Tunneling. U.S. Patent Application No. 19/057,221 (Pub. US 2026-0058991 A1). [[PDF]](/files/patents/US20260058991A1-inpath-perquery-sanitization.pdf)
