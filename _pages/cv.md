@@ -23,9 +23,9 @@ Education
 Experience
 ======
 * Assistant Professor, Department of Computer Science and Technology, Tsinghua University (present)
-* Principal Researcher, Palo Alto Networks, Inc., 2020–2024
-  * DNS Security Research team, Cloud-Delivered Security Services (previously Senior Staff / Staff Security Researcher)
-  * Built large-scale systems to detect and block DNS misconfiguration vulnerabilities (dangling DNS records, claimable non-existent domains) and attacks (DNS tunneling, NXNS-based DDoS)
+* Principal Researcher, Palo Alto Networks, Inc., 2020–2024 (previously Senior Staff / Staff Security Researcher)
+  * Cloud-Delivered Security Services
+  * Research contributed to the Advanced DNS Security and Advanced IP Defense products — detecting and blocking DNS tunneling, DNS relaying, NXNS-based DDoS, DNS-misconfiguration vulnerabilities (dangling DNS records, claimable non-existent domains), and malicious direct-to-IP traffic
 * Graduate Research Assistant, Georgia Institute of Technology, 2012–2019
   * Software, web, and DNS security; open-source software risk identification, automated 1-day patching, and supply-chain attack detection
 * Software Engineer Intern, Google Inc., Summers 2013–2015
