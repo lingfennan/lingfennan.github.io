@@ -5,6 +5,7 @@ category: workshops
 permalink: /publication/2013-10-01-dnschanger-remediation
 date: 2013-10-01
 venue: 'Messaging, Malware and Mobile Anti-Abuse Working Group (M3AAWG)'
+paperurl: '/files/papers/m3aawg2013-dnschanger-remediation-slides.pdf'
 excerpt: 'Wei Meng, **Ruian Duan**, Wenke Lee'
 citation: 'Wei Meng, <b>Ruian Duan</b>, Wenke Lee. &quot;DNS Changer Remediation Study.&quot; <i>Messaging, Malware and Mobile Anti-Abuse Working Group (M3AAWG)</i>, 2013.'
 ---
