@@ -14,7 +14,7 @@ Before joining Tsinghua, I was a Principal Researcher at Palo Alto Networks, whe
 See my work on [Google Scholar](https://scholar.google.com/citations?user=vsi3Dk4AAAAJ&hl=en), or my on-site [Publications](/publications/) and [Patents](/patents/).
 
 Research
-======
+------
 I build systems that measure, detect, and defend against security threats in widely deployed computer technologies. My work spans:
 
 - **Network / DNS security** — detecting and mitigating DNS-based attacks (tunneling, relaying, hijacking, cache poisoning) and vulnerabilities from DNS misconfigurations, at internet scale.
@@ -34,7 +34,7 @@ Prospective students
 {% endcomment %}
 
 News
-======
+------
 
 - **2026** — Joined Tsinghua University as an Assistant Professor in the Department of Computer Science and Technology.
 - **2026** — Paper on DNS relaying accepted to DSN 2026.
