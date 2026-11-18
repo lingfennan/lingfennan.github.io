@@ -8,5 +8,3 @@ date: 2025-05-12
 location: "San Francisco, CA, USA"
 ---
 
-Conference presentation at IEEE Symposium on Security and Privacy (S&P), San Francisco, CA, USA.
-

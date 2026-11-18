@@ -8,5 +8,3 @@ date: 2025-08-01
 location: "Newark, DE, USA"
 ---
 
-Invited talk at University of Delaware, Newark, DE, USA.
-

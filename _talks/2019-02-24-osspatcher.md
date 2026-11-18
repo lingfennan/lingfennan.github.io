@@ -8,5 +8,3 @@ date: 2019-02-24
 location: "San Diego, CA, USA"
 ---
 
-Conference presentation at Network and Distributed System Security Symposium (NDSS), San Diego, CA, USA.
-

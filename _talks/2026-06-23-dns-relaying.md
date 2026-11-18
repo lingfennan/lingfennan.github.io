@@ -8,5 +8,3 @@ date: 2026-06-23
 location: "Charlotte, NC, USA"
 ---
 
-Conference presentation at IEEE/IFIP International Conference on Dependable Systems and Networks (DSN), Charlotte, NC, USA.
-

@@ -8,5 +8,3 @@ date: 2017-10-30
 location: "Dallas, TX, USA"
 ---
 
-Conference presentation at ACM Conference on Computer and Communications Security (CCS), Dallas, TX, USA.
-

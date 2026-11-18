@@ -17,7 +17,7 @@ Research
 ======
 I build systems that measure, detect, and defend against security threats in widely deployed computer technologies. My work spans:
 
-- **Network / DNS security** — detecting and mitigating DNS-based attacks (tunneling, relaying, cache poisoning, NXNS DDoS) and vulnerabilities from DNS misconfigurations, at internet scale.
+- **Network / DNS security** — detecting and mitigating DNS-based attacks (tunneling, relaying, hijacking, cache poisoning) and vulnerabilities from DNS misconfigurations, at internet scale.
 - **Software and supply-chain security** — identifying known vulnerabilities, license violations, and supply-chain attacks in open-source software, and automatically patching vulnerable code in application binaries.
 - **AI security** — studying the security and trustworthiness of AI systems.
 
