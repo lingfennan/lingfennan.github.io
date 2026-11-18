@@ -32,7 +32,9 @@ Prospective students
 
 News
 ======
-<!-- Add new items at the top. One entry per item. Keep it short — recent highlights only. -->
+
+<!-- Add new items at the top. One entry per item. Keep it short, recent highlights only. -->
+
 - **2026** — Joined Tsinghua University as an Assistant Professor in the Department of Computer Science and Technology.
 - **2026** — Paper on DNS relaying accepted to DSN 2026.
 - **2026** — Paper on classical domain hijacking detection accepted to AsiaCCS 2026.
