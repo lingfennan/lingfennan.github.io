@@ -181,6 +181,10 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - docker-compose.yaml
+  - docs
+  - markdown_generator
+  - scripts
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
@@ -226,12 +230,12 @@ collections:
   teaching:
     output: true
     permalink: /:collection/:path/
+  # Publications and talks are rendered only as lists on /publications/ and /talks/;
+  # no per-item pages are generated.
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   talks:
-    output: true
-    permalink: /:collection/:path/
+    output: false
 
 
 # These settings control how pages and collections are included in the site
@@ -297,7 +301,6 @@ timezone: Etc/UTC # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 # Plugins
 plugins:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
@@ -306,7 +309,6 @@ plugins:
 
 # Mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
