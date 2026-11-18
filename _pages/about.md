@@ -11,7 +11,7 @@ I am an Assistant Professor in the [Department of Computer Science and Technolog
 
 Before joining Tsinghua, I was a Principal Researcher at Palo Alto Networks, where my research contributed to the [Advanced DNS Security](https://www.paloaltonetworks.com/network-security/advanced-dns-security) and [Advanced IP Defense](https://docs.paloaltonetworks.com/advanced-ip-defense/activation-and-onboarding/introducing-advanced-ip-defense) products. For Advanced DNS Security, I built internet-scale systems to detect and block DNS tunneling, DNS relaying, DNS hijacking, and vulnerabilities from DNS misconfigurations such as dangling DNS records and claimable non-existent domains. For Advanced IP Defense, I built public-facing honeypots and a network telescope to capture and detect scanning and brute-force source IPs. I received my Ph.D. in Computer Science from the [Georgia Institute of Technology](https://www.gatech.edu/), advised by Prof. [Wenke Lee](https://wenke.gtisc.gatech.edu/) and Prof. [Brendan Saltaformaggio](https://saltaformaggio.ece.gatech.edu/), where my dissertation worked toward solving the security risks of open-source software use. I received my B.E. in Computer Science and Technology from Tsinghua University.
 
-See my work on [Google Scholar](https://scholar.google.com/citations?user=vsi3Dk4AAAAJ&hl=en) and [DBLP](https://dblp.org/pid/117/4491.html), or my on-site [Publications](/publications/), [Patents](/patents/), and [Projects](/portfolio/).
+See my work on [Google Scholar](https://scholar.google.com/citations?user=vsi3Dk4AAAAJ&hl=en), or my on-site [Publications](/publications/), [Patents](/patents/), and [Projects](/portfolio/).
 
 Research
 ======
