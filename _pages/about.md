@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Assistant Professor in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/) at [Tsinghua University](https://www.tsinghua.edu.cn/). My research is in **computer security and privacy**, with a focus on **network security** and **software and supply-chain security**, and a growing interest in **AI security**.
+I am an Assistant Professor in the [Department of Computer Science and Technology](https://www.cs.tsinghua.edu.cn/) at [Tsinghua University](https://www.tsinghua.edu.cn/). My research is in **computer security and privacy**, with a focus on **network security**, **software and supply-chain security**, and **AI security**.
 
 Before joining Tsinghua, I was a Principal Researcher at Palo Alto Networks, where my research contributed to the [Advanced DNS Security](https://www.paloaltonetworks.com/network-security/advanced-dns-security) and [Advanced IP Defense](https://docs.paloaltonetworks.com/advanced-ip-defense/activation-and-onboarding/introducing-advanced-ip-defense) products — cloud-delivered systems that detect and block real-world threats at internet scale, including DNS tunneling, DNS relaying, NXNS-based DDoS, vulnerabilities from DNS misconfigurations (such as dangling DNS records and claimable non-existent domains), and malicious direct-to-IP traffic. I received my Ph.D. in Computer Science from the [Georgia Institute of Technology](https://www.gatech.edu/), advised by Prof. [Wenke Lee](https://wenke.gtisc.gatech.edu/) and Prof. [Brendan Saltaformaggio](https://saltaformaggio.ece.gatech.edu/), where my dissertation worked toward solving the security risks of open-source software use. I received my B.E. in Computer Science and Technology from Tsinghua University.
 
@@ -19,8 +19,7 @@ I build systems that measure, detect, and defend against security threats in wid
 
 - **Network / DNS security** — detecting and mitigating DNS-based attacks (tunneling, relaying, cache poisoning, NXNS DDoS) and vulnerabilities from DNS misconfigurations, at internet scale.
 - **Software and supply-chain security** — identifying known vulnerabilities, license violations, and supply-chain attacks in open-source software, and automatically patching vulnerable code in application binaries.
-
-Building on this foundation, I am starting new work on **AI security** — studying the security and trustworthiness of AI systems. (This is a forthcoming direction; my published work to date is in the two areas above.)
+- **AI security** — studying the security and trustworthiness of AI systems.
 
 Prospective students
 ======

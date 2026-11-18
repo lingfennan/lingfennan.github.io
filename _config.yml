@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Ruian Duan"
 title_separator          : "-"
 name                     : &name "Ruian Duan"
-description              : &description "Ruian Duan — Assistant Professor of Computer Science and Technology at Tsinghua University, working on network and software security, with emerging work on AI security."
+description              : &description "Ruian Duan — Assistant Professor of Computer Science and Technology at Tsinghua University, working on network, software, and AI security."
 url                      : https://lingfennan.github.io # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lingfennan/lingfennan.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.jpg"
   name             : "Ruian Duan (段瑞安)"
   pronouns         : # example: "she/her"
-  bio              : "Assistant Professor, Department of Computer Science and Technology, Tsinghua University. Network and software security; emerging work on AI security."
+  bio              : "Assistant Professor, Department of Computer Science and Technology, Tsinghua University. Network, software, and AI security."
   location         : "Beijing, China"
   employer         : "Tsinghua University"
   uri              : # URL
