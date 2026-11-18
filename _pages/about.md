@@ -21,12 +21,14 @@ I build systems that measure, detect, and defend against security threats in wid
 - **Software and supply-chain security** — identifying known vulnerabilities, license violations, and supply-chain attacks in open-source software, and automatically patching vulnerable code in application binaries.
 - **AI security** — studying the security and trustworthiness of AI systems.
 
+<!-- Prospective students section hidden for now — revisit wording later.
 Prospective students
 ======
 **I am looking for motivated students and am recruiting now.** If you are interested in network security, software/supply-chain security, or AI security, I would be glad to hear from you:
 
 - **Prospective Ph.D. / master's students:** please email me your CV, transcript, and a short note on your research interests, with **"[Prospective Student]"** in the subject line. Applications go through Tsinghua's standard admissions process.
 - **Current Tsinghua undergraduates:** I advise undergraduate research projects (SRT/final-year projects) — feel free to reach out.
+-->
 
 News
 ======
