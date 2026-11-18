@@ -10,19 +10,15 @@ author_profile: true
 <p>My name is shown in <strong>bold</strong>.{% if site.author.googlescholar %} You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.{% endif %}</p>
 
 {% comment %}
-  Compact, title-first list (same visual system as the Patents page).
+  One compact, title-first list, newest first (same visual system as the Patents page).
   Each entry: Title (own line) / Authors. Venue, Year. [PDF]
   Authors come from the `excerpt` front matter of each file in _publications/.
+  The `category` front matter is kept in each file but not used for grouping.
 {% endcomment %}
-{% for category in site.publication_category %}
-  {% assign pubs = site.publications | where: "category", category[0] | sort: "date" | reverse %}
-  {% if pubs.size > 0 %}
-<h2>{{ category[1].title }}</h2>
+{% assign pubs = site.publications | sort: "date" | reverse %}
 <ul>
-    {% for post in pubs %}
+  {% for post in pubs %}
   <li><strong>{{ post.title | markdownify | remove: "<p>" | remove: "</p>" | strip }}</strong><br>
       {{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" | strip }}. <i>{{ post.venue | escape }}</i>, {{ post.date | date: "%Y" }}.{% if post.paperurl %} <a href="{{ base_path }}{{ post.paperurl }}">[PDF]</a>{% endif %}</li>
-    {% endfor %}
+  {% endfor %}
 </ul>
-  {% endif %}
-{% endfor %}
